@@ -1,0 +1,7 @@
+faang_stocks = set([])
+faang_stocks.add('Facebook')
+faang_stocks.add('Amazon')
+faang_stocks.add('Apple')
+faang_stocks.add('Netflix')
+faang_stocks.add('Alphabet')
+print(faang_stocks)
