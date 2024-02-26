@@ -36,6 +36,19 @@ A set is a built-in data structure that represents an unordered collection of un
 
 Note - There are some other methods like issubset, issuperset. Use autofill to see them.
 
+## Dictionary
+
+A dictionary is a built-in data structure that allows you to store key-value pairs. Dictionaries are **Mutable, Unordered, Key Value Pairs, Unique Keys**.
+
+#### Methods:
+- *dict()*: create a dictionary or {}.
+- *get()*: get a key in dictionary.
+- *pop()* or *del*: to delete a specific key.
+- *keys()*: Returns a view object displaying a list of all the keys.
+- *values()*: Returns a view object displaying a list of all the values.
+- *items()*: Returns a view object displaying a list of key-value tuple pairs.
+- *update()*: Updates the dictionary with elements from another dictionary or from key-value pairs.
+
 #### Additonal Notes - 
 - ``print(f'{100 * prob:.2f}%')`` - Better method to print than rounding and adding to string.
 
