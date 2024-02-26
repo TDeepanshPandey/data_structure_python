@@ -49,6 +49,15 @@ A dictionary is a built-in data structure that allows you to store key-value pai
 - *items()*: Returns a view object displaying a list of key-value tuple pairs.
 - *update()*: Updates the dictionary with elements from another dictionary or from key-value pairs.
 
+Note: One can use **|** operator for adding two dictionaries
+
+## Frozenset 
+
+A frozenset is a built-in data structure that is very similar to a regular set, but unlike sets, frozensets are **Immutable, Unordered, No Duplicate Members, Hashable**.
+
+#### Methods:
+- *frozenset()* - create frozenset.
+
 #### Additonal Notes - 
 - ``print(f'{100 * prob:.2f}%')`` - Better method to print than rounding and adding to string.
 
