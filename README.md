@@ -58,6 +58,37 @@ A frozenset is a built-in data structure that is very similar to a regular set, 
 #### Methods:
 - *frozenset()* - create frozenset.
 
+## Collections
+
+Collections module in Python is part of the standard library and provides alternative container datatypes to built-in types like list, tuple, set, and dict. These containers are more specialized and come in handy for various specific tasks.
+
+### namedtuple
+Namedtuple is a function that returns a new subclass of a tuple. It allows you to give names to the positions in a tuple, providing a way to create simple, self-documenting, and readable code.
+
+### deque
+Deque stands for "double-ended queue" and provides fast appends and pops from both ends. It is more flexible than a list for certain use-cases involving frequent insertions and deletions.
+
+### Counter
+Counter is a dict subclass for counting hashable objects. It's useful for tallying the frequency of elements in collections. **Elements as Keys, Count as Values and Hashable Elements**.
+
+#### Methods:
+- *elements()*: Returns an iterator that produces all the elements in the original iterable, repeated according to their count.
+- *most_common([n])*: Returns a list of the n most common elements and their counts as tuples. If n is omitted, it returns all elements.
+- *subtract([iterable-or-mapping])*: Subtracts the count of elements in the iterable from the existing count.
+
+### defaultdict
+defaultdict is another dict subclass that returns a default value for missing keys, simplifying handling of missing keys.
+
+### ChainMap
+ChainMap groups multiple dictionaries into a single mapping. Lookups search through the dictionaries from first to last added. **Look-Up Order, Reusability, Dynamic View, Mutable**.
+
+#### Methods:
+- *maps*: List of all the constituent mappings
+- *new_child()*: Creates a new ChainMap with a new map followed by all previous maps.
+- *parents*: Property returning a new ChainMap containing all the maps except the first one.
+
+### UserDict, UserList, and UserString
+These are wrapper classes that allow you to more easily extend built-in containers like dict, list, and str.
+
 #### Additonal Notes - 
 - ``print(f'{100 * prob:.2f}%')`` - Better method to print than rounding and adding to string.
-
