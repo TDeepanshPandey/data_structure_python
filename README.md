@@ -66,7 +66,19 @@ Collections module in Python is part of the standard library and provides altern
 Namedtuple is a function that returns a new subclass of a tuple. It allows you to give names to the positions in a tuple, providing a way to create simple, self-documenting, and readable code.
 
 ### deque
-Deque stands for "double-ended queue" and provides fast appends and pops from both ends. It is more flexible than a list for certain use-cases involving frequent insertions and deletions.
+Deque stands for "double-ended queue" and provides fast appends and pops from both ends. It is more flexible than a list for certain use-cases involving frequent insertions and deletions. **Fast Operations, Index Access, Thread-Safe and Bounded Length**. 
+
+#### Methods:
+- *append()*: Add an element to the right end.
+- *appendleft()*: Add an element to the left end.
+- *pop()*: Remove and return an element from the right end.
+- *popleft()*: Remove and return an element from the left end.
+- *extend()*: Extend deque by appending elements from an iterable at the right end.
+- *extendleft()*: Extend deque by appending elements from an iterable at the left end. Note that the iterable's elements will appear in the deque in reverse order.
+- *rotate()*: Rotate the deque n steps to the right. If n is negative, rotate to the left.
+- *count(x)*: Count the number of deque elements equal to x.
+- *reverse()*: Reverse the elements of the deque in-place.
+- *clear()*: Remove all elements from the deque.
 
 ### Counter
 Counter is a dict subclass for counting hashable objects. It's useful for tallying the frequency of elements in collections. **Elements as Keys, Count as Values and Hashable Elements**.
@@ -77,7 +89,7 @@ Counter is a dict subclass for counting hashable objects. It's useful for tallyi
 - *subtract([iterable-or-mapping])*: Subtracts the count of elements in the iterable from the existing count.
 
 ### defaultdict
-defaultdict is another dict subclass that returns a default value for missing keys, simplifying handling of missing keys.
+defaultdict is another dict subclass that returns a default value for missing keys, simplifying handling of missing keys. **Default Value, Avoids KeyError and Custom Default Values**.
 
 ### ChainMap
 ChainMap groups multiple dictionaries into a single mapping. Lookups search through the dictionaries from first to last added. **Look-Up Order, Reusability, Dynamic View, Mutable**.
