@@ -102,5 +102,8 @@ ChainMap groups multiple dictionaries into a single mapping. Lookups search thro
 ### UserDict, UserList, and UserString
 These are wrapper classes that allow you to more easily extend built-in containers like dict, list, and str.
 
-#### Additonal Notes - 
+## Queue 
+A queue is a linear data structure in which elements are stored and retrieved in a specific order known as "First-In, First-Out" (FIFO). In a queue, the first element added to the queue is the first one to be removed.
+
+## Additonal Notes - 
 - ``print(f'{100 * prob:.2f}%')`` - Better method to print than rounding and adding to string.
