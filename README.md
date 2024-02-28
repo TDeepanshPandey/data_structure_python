@@ -105,5 +105,8 @@ These are wrapper classes that allow you to more easily extend built-in containe
 ## Queue 
 A queue is a linear data structure in which elements are stored and retrieved in a specific order known as "First-In, First-Out" (FIFO). In a queue, the first element added to the queue is the first one to be removed.
 
+### Stack
+A stack is a linear data structure that follows the Last-In, First-Out (LIFO) principle. This means that the last element added to the stack is the first one to be removed.
+
 ## Additonal Notes - 
 - ``print(f'{100 * prob:.2f}%')`` - Better method to print than rounding and adding to string.
