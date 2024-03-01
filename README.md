@@ -110,3 +110,4 @@ A stack is a linear data structure that follows the Last-In, First-Out (LIFO) pr
 
 ## Additonal Notes - 
 - ``print(f'{100 * prob:.2f}%')`` - Better method to print than rounding and adding to string.
+- palandrone - 
