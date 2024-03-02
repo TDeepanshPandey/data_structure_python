@@ -110,3 +110,6 @@ A stack is a linear data structure that follows the Last-In, First-Out (LIFO) pr
 
 ## Additonal Notes - 
 - ``print(f'{100 * prob:.2f}%')`` - Better method to print than rounding and adding to string.
+
+### Numpy Array
+NumPy (Numerical Python) is a powerful library for numerical computing in Python. One of its main features is the ndarray (n-dimensional array), which is a **homogeneous, multidimensional array** object that enables fast and efficient operations on large datasets.
