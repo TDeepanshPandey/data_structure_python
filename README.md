@@ -1,5 +1,8 @@
-# Data Structure Python Udemy Course
- Udemy Course with 150 Excercises in Python
+# Data Structure Python 150 Excercises Udemy Course
+
+ Course Link - [Course Link](https://www.udemy.com/course/150-exercises-data-structures-in-python/)
+
+ Certificate - [Course Certificate](https://www.udemy.com/certificate/UC-7b9a31e5-d859-4673-bbf6-53afc8f9e4e2/)
 
 ## List 
 
