@@ -18,6 +18,6 @@ class Stack:
         self._data.append(item)
 
     def pop(self):
-        if self.is_empty() == 0:
+        if self.is_empty():
             raise EmptyStackError('The stack is empty.')
         return self._data.pop()
